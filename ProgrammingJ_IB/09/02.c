@@ -23,6 +23,7 @@ int main() {
 
   if (fp == NULL) {
     puts("File open error");
+    return 1;
   }
 
   scanf("%d", &position);
